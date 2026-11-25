@@ -1,0 +1,20 @@
+{
+  "client_id": "https://DannyJ1983.github.io/blockfit-poppy-test/agent.json",
+  "client_name": "Muse Poppy test",
+  "client_uri": "https://DannyJ1983.github.io/blockfit-poppy-test/",
+  "redirect_uris": [
+    "https://DannyJ1983.github.io/blockfit-poppy-test/callback",
+    "http://127.0.0.1:8080/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "scope": "classes:read bookings:read bookings:write wallet:read",
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "ES256",
+  "jwks_uri": "https://DannyJ1983.github.io/blockfit-poppy-test/jwks.json"
+}
